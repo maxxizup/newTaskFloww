@@ -8,12 +8,12 @@ export default function Workspace () {
 			<NavPanel/>
 			<div className='h-full w-full py-[20px] flex flex-col justify-between gap-[40px]'>
 				<WSHeader />
-				<div className='border border-teal-900 w-full h-full flex flex-col gap-[45px]'>
+				<div className='w-full h-full flex flex-col gap-[45px]'>
 					<div className='w-full h-[192px] flex flex-col justify-center gap-[8px]'>
 						<p className='text-white text-[20px] leading-[24px] tracking-[0.04em]'>Сегодня 18 апреля</p>
 						<h2 className='text-white text-[36px] leading-[40px] tracking-[0.04em]'>Добрый вечер, <br/>Игорь</h2>
 					</div>
-					<div className='border border-red-600 w-full h-[430px] flex flex-col gap-[20px]'>
+					<div className='w-full h-[430px] flex flex-col gap-[20px]'>
 						<div className='w-full h-[36px] flex justify-between'>
 							<div className='flex justify-between gap-[8px]'>
 								<button className='h-[36px] w-[141px] bg-[#B0B0B0] text-white rounded-[8px] hover:opacity-75 cursor-pointer focus:bg-[#6361FF]'>Все проекты</button>
