@@ -2,7 +2,7 @@ import Image from "next/image";
 import MyInput from "@/components/ui/MyInput";
 import MyButton from "@/components/ui/MyButton";
 
-export default function WSHeader () {
+export default function WSHeader (props) {
 	return (
 		<div className='w-full h-[48px] flex justify-between'>
 			<div className='h-full w-[345px] flex items-center justify-between'>
@@ -11,10 +11,10 @@ export default function WSHeader () {
 						src={'./solar_paw-broken.svg'}
 						height={44}
 						width={44}
-						alt={'Sperma'}
+						alt={'Image'}
 					/>
 					<div className='h-full w-[158px] border border-r-[#DBDBDB] border-r-2 border-l-transparent border-b-transparent border-t-transparent'>
-						<h4 className='text-white text-[16px] leading-[24px]'>Кирюха Денисович</h4>
+						<h4 className='text-white text-[16px] leading-[24px]'> {props.user ? `${props.user.firstName} ${props.user.lastName}` : "Имя Фамилия"}</h4>
 						<p className='text-[#DBDBDB] text-[16px] leading-[24px]'>SMM</p>
 					</div>
 				</div>

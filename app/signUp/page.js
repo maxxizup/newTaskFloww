@@ -5,6 +5,7 @@ import RegistrationForm from "@/components/signUp__components/RegistrationForm";
 import OAuthPanel from "@/components/ui/OAuthPanel";
 
 export default function signUp() {
+
     return (
         <div className="h-full p-[20px] flex justify-center items-center">
 
