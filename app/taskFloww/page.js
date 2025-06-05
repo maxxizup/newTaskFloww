@@ -88,8 +88,8 @@ export default function TaskFloww() {
 									<p>К выполнению</p>
 									<img src="./arcticons_conversations.svg" alt="settings"/>
 								</div>
-								<button className='mt-[10px] text-white border border-dashed border-white w-full h-[40px] w-full h-[40px] rounded-[8px] flex justify-between items-center px-[20px] text-white text-[14px]'>
-
+								<button className='flex justify-center items-center cursor-pointer hover:bg-[#6361FF] transition ease-linear mt-[10px] text-white border border-dashed border-white w-full h-[40px] w-full h-[40px] rounded-[8px] flex justify-between items-center px-[20px] text-white text-[14px]'>
+									<img src="./arcticons_plus.svg" alt="add task"/>
 								</button>
 							</div>
 							<div
@@ -99,8 +99,8 @@ export default function TaskFloww() {
 									<p>В процессе</p>
 									<img src="./arcticons_conversations.svg" alt="settings"/>
 								</div>
-								<button className='mt-[10px] text-white border border-dashed border-white w-full h-[40px] w-full h-[40px] rounded-[8px] flex justify-between items-center px-[20px] text-white text-[14px]'>
-
+								<button className='flex justify-center items-center cursor-pointer hover:bg-[#6361FF] transition ease-linear mt-[10px] text-white border border-dashed border-white w-full h-[40px] w-full h-[40px] rounded-[8px] flex justify-between items-center px-[20px] text-white text-[14px]'>
+									<img src="./arcticons_plus.svg" alt="add task"/>
 								</button>
 							</div>
 							<div
@@ -110,8 +110,8 @@ export default function TaskFloww() {
 									<p>Готово</p>
 									<img src="./arcticons_conversations.svg" alt="settings"/>
 								</div>
-								<button className='mt-[10px] text-white border border-dashed border-white w-full h-[40px] w-full h-[40px] rounded-[8px] flex justify-between items-center px-[20px] text-white text-[14px]'>
-
+								<button className='flex justify-center items-center cursor-pointer hover:bg-[#6361FF] transition ease-linear mt-[10px] text-white border border-dashed border-white w-full h-[40px] w-full h-[40px] rounded-[8px] flex justify-between items-center px-[20px] text-white text-[14px]'>
+									<img src="./arcticons_plus.svg" alt="add task"/>
 								</button>
 							</div>
 							<div
@@ -121,8 +121,8 @@ export default function TaskFloww() {
 									<p>Добавить раздел</p>
 									<img src="./arcticons_conversations.svg" alt="settings"/>
 								</div>
-								<button className='mt-[10px] text-white border border-dashed border-white w-full h-[40px] w-full h-[40px] rounded-[8px] flex justify-between items-center px-[20px] text-white text-[14px]'>
-
+								<button className='flex justify-center items-center cursor-pointer hover:bg-[#6361FF] transition ease-linear mt-[10px] text-white border border-dashed border-white w-full h-[40px] w-full h-[40px] rounded-[8px] flex justify-between items-center px-[20px] text-white text-[14px]'>
+									<img src="./arcticons_plus.svg" alt="add task"/>
 								</button>
 							</div>
 						</div>
