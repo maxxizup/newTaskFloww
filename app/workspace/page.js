@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import NavPanel from "@/components/ui/NavPanel";
 import WSHeader from "@/components/workspace__components/WSHeader";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Workspace() {
 	const [user, setUser] = useState(null);
@@ -38,7 +39,11 @@ export default function Workspace() {
 							<div className='flex justify-between gap-[8px]'>
 								<button className='h-[36px] w-[141px] bg-[#B0B0B0] text-white rounded-[8px] hover:opacity-75 cursor-pointer focus:bg-[#6361FF]'>Все проекты</button>
 								<button className='h-[36px] w-[173px] bg-[#B0B0B0] text-white rounded-[8px] hover:opacity-75 cursor-pointer focus:bg-[#6361FF]'>Личные проекты</button>
-								<button className='h-[36px] w-[124px] bg-[#B0B0B0] text-white rounded-[8px] hover:opacity-75 cursor-pointer focus:bg-[#6361FF]'>TaskFloww</button>
+								<Link href={'/taskFloww'}>
+									<button
+										className='h-[36px] w-[124px] bg-[#B0B0B0] text-white rounded-[8px] hover:opacity-75 cursor-pointer focus:bg-[#6361FF]'>TaskFloww
+									</button>
+								</Link>
 							</div>
 							<div className='h-full w-[216px] flex gap-[8px] items-center'>
 								<Image
