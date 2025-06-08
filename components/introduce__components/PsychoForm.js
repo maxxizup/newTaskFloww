@@ -39,7 +39,7 @@ export default function PsychoForm() {
 			<select className='h-[68px] w-full bg-[#707070] text-[#B0B0B0] rounded-[8px] px-[20px] text-[13px]' name="" id="">
 				<option selected={true} disabled={true} className='selected h-[44px] rounded-[8px] text-white' value="value1">Выберите задачи, которые вы будете решать в TaskFloww </option>
 			</select>
-			<Link href={'/createDash'}>
+			<Link href={'/onboarding/step2'}>
 				<MyButton
 					type='submit'
 					width={414}

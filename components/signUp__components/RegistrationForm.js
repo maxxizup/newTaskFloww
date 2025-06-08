@@ -45,7 +45,7 @@ export default function RegistrationForm() {
 		localStorage.setItem("users", JSON.stringify([...existingUsers, newUser]))
 		localStorage.setItem("currentUser", JSON.stringify(newUser))
 
-		router.push("/introduce")
+		router.push("/onboarding/step1")
 	}
 
 	return (

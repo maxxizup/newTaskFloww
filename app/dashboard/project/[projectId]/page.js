@@ -1,7 +1,7 @@
 "use client"
 
-import NavPanel from "@/components/ui/NavPanel";
-import WSHeader from "@/components/workspace__components/WSHeader";
+import NavPanel from "@/components/ui/NavPanel.js";
+import WSHeader from "@/components/workspace__components/WSHeader.js";
 import {useEffect, useState} from "react";
 
 export default function TaskFloww() {
@@ -55,7 +55,7 @@ export default function TaskFloww() {
 							<div>
 								<button
 									className='text-white bg-[#B0B0B0] w-[56px] h-[40px] rounded-[8px] flex justify-center cursor-pointer hover:opacity-75 hover:bg-[#6361FF] transition ease-linear'>
-									<img src={'./arcticons_plus.svg'} alt={'Add'} width={24} height={24}/></button>
+									<img src={'/arcticons_plus.svg'} alt={'Add'} width={24} height={24}/></button>
 							</div>
 						</div>
 					</div>
@@ -78,7 +78,7 @@ export default function TaskFloww() {
 							</div>
 							<div
 								className='h-full w-[94px] flex items-center gap-[8px] cursor-pointer hover:opacity-85'>
-								<img src="./solar_list-bold-duotone.svg" alt="Filters"/>
+								<img src="/solar_list-bold-duotone.svg" alt="Filters"/>
 								<p className='text-white text-[14px] leading-[24px]'>Фильтры</p>
 							</div>
 						</div>
@@ -86,10 +86,10 @@ export default function TaskFloww() {
 							<div className='border border-white border-dashed h-full w-[420px] rounded-[8px] py-[8px] px-[10px]'>
 								<div className='bg-[#B0B0B0] w-full h-[40px] rounded-[8px] flex justify-between items-center px-[20px] text-white text-[14px]'>
 									<p>К выполнению</p>
-									<img src="./arcticons_conversations.svg" alt="settings"/>
+									<img src="/arcticons_conversations.svg" alt="settings"/>
 								</div>
 								<button className='flex justify-center items-center cursor-pointer hover:bg-[#6361FF] transition ease-linear mt-[10px] text-white border border-dashed border-white w-full h-[40px] w-full h-[40px] rounded-[8px] flex justify-between items-center px-[20px] text-white text-[14px]'>
-									<img src="./arcticons_plus.svg" alt="add task"/>
+									<img src="/arcticons_plus.svg" alt="add task"/>
 								</button>
 							</div>
 							<div
@@ -97,10 +97,10 @@ export default function TaskFloww() {
 								<div
 									className='bg-[#B0B0B0] w-full h-[40px] rounded-[8px] flex justify-between items-center px-[20px] text-white text-[14px]'>
 									<p>В процессе</p>
-									<img src="./arcticons_conversations.svg" alt="settings"/>
+									<img src="/arcticons_conversations.svg" alt="settings"/>
 								</div>
 								<button className='flex justify-center items-center cursor-pointer hover:bg-[#6361FF] transition ease-linear mt-[10px] text-white border border-dashed border-white w-full h-[40px] w-full h-[40px] rounded-[8px] flex justify-between items-center px-[20px] text-white text-[14px]'>
-									<img src="./arcticons_plus.svg" alt="add task"/>
+									<img src="/arcticons_plus.svg" alt="add task"/>
 								</button>
 							</div>
 							<div
@@ -108,10 +108,10 @@ export default function TaskFloww() {
 								<div
 									className='bg-[#B0B0B0] w-full h-[40px] rounded-[8px] flex justify-between items-center px-[20px] text-white text-[14px]'>
 									<p>Готово</p>
-									<img src="./arcticons_conversations.svg" alt="settings"/>
+									<img src="/arcticons_conversations.svg" alt="settings"/>
 								</div>
 								<button className='flex justify-center items-center cursor-pointer hover:bg-[#6361FF] transition ease-linear mt-[10px] text-white border border-dashed border-white w-full h-[40px] w-full h-[40px] rounded-[8px] flex justify-between items-center px-[20px] text-white text-[14px]'>
-									<img src="./arcticons_plus.svg" alt="add task"/>
+									<img src="/arcticons_plus.svg" alt="add task"/>
 								</button>
 							</div>
 							<div
@@ -119,10 +119,10 @@ export default function TaskFloww() {
 								<div
 									className='bg-[#B0B0B0] w-full h-[40px] rounded-[8px] flex justify-between items-center px-[20px] text-white text-[14px]'>
 									<p>Добавить раздел</p>
-									<img src="./arcticons_conversations.svg" alt="settings"/>
+									<img src="/arcticons_conversations.svg" alt="settings"/>
 								</div>
 								<button className='flex justify-center items-center cursor-pointer hover:bg-[#6361FF] transition ease-linear mt-[10px] text-white border border-dashed border-white w-full h-[40px] w-full h-[40px] rounded-[8px] flex justify-between items-center px-[20px] text-white text-[14px]'>
-									<img src="./arcticons_plus.svg" alt="add task"/>
+									<img src="/arcticons_plus.svg" alt="add task"/>
 								</button>
 							</div>
 						</div>

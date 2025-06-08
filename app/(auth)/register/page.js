@@ -1,19 +1,19 @@
-import Header from "@/components/ui/Header";
-import Divider from "@/components/ui/Divider";
+import Header from "@/components/ui/Header.js";
+import Divider from "@/components/ui/Divider.js";
 import Link from "next/link";
-import RegistrationForm from "@/components/signUp__components/RegistrationForm";
-import OAuthPanel from "@/components/ui/OAuthPanel";
+import RegistrationForm from "@/components/signUp__components/RegistrationForm.js";
+import OAuthPanel from "@/components/ui/OAuthPanel.js";
 
 export default function signUp() {
 
     return (
-        <div className="h-full p-[20px] flex justify-center items-center">
+        <>
+            {/* Левый блок с формой */}
+            <div className={"h-full w-[700px]"}>
 
-            {/* 1й блок с приветствием и формой авторизации */}
-            <div className={/* border */"h-full w-[700px]"}>
+                {/* Контейнер для контента */}
+                <div className={'mx-auto h-full max-w-[430px]'}>
 
-                {/* Container */}
-                <div className={/* border border-red-600 */'mx-auto h-full max-w-[430px]'}>
                     <Header />
                     <div className='mt-[98px] text-center'>
                         <h1 className='text-white text-[32px] leading-[36px] tracking-[0.04em]'>Добро пожаловать!</h1>
@@ -32,11 +32,12 @@ export default function signUp() {
                             </Link>
                         </div>
                     </div>
+
                 </div>
             </div>
 
-            {/* 2й блок с картинками */}
-            <div className={/*border*/"h-full w-[700px] bg-[#707070]"}></div>
-        </div>
+            {/* Правый декоративный блок */}
+            <div className={"h-full w-[700px] bg-[#707070]"}></div>
+        </>
     );
 }

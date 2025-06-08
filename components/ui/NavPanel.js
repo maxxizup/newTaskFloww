@@ -11,13 +11,13 @@ export default function NavPanel () {
 							<Image
 								width={24}
 								height={24}
-								src={'./logo.svg'}
+								src={'/logo.svg'}
 								alt={'Logo'}
 							/>
 							<Image
 								height={48}
 								width={64}
-								src={'./TaskFloww.svg'}
+								src={'/TaskFloww.svg'}
 								alt={'TaskFloww'}
 							/>
 						</div>
@@ -26,7 +26,7 @@ export default function NavPanel () {
 				<div className='h-full flex flex-col gap-[10px] justify-end'>
 					<button className='w-full h-[40px] flex items-center justify-center hover:bg-[#B0B0B0] rounded-[8px] transition ease-linear cursor-pointer'>
 						<Image
-							src={'./arcticons_widget.svg'}
+							src={'/arcticons_widget.svg'}
 							width={24}
 							height={24}
 							alt={'NavButtonIcon'}
@@ -34,7 +34,7 @@ export default function NavPanel () {
 					</button>
 					<button className='w-full h-[40px] flex items-center justify-center hover:bg-[#B0B0B0] rounded-[8px] transition ease-linear cursor-pointer'>
 						<Image
-							src={'./arcticons_minimal.svg'}
+							src={'/arcticons_minimal.svg'}
 							width={24}
 							height={24}
 							alt={'NavButtonIcon'}
@@ -42,7 +42,7 @@ export default function NavPanel () {
 					</button>
 					<button className='w-full h-[40px] flex items-center justify-center hover:bg-[#B0B0B0] rounded-[8px] transition ease-linear cursor-pointer'>
 						<Image
-							src={'./arcticons_calendar-fossify-1.svg'}
+							src={'/arcticons_calendar-fossify-1.svg'}
 							width={24}
 							height={24}
 							alt={'NavButtonIcon'}
@@ -50,7 +50,7 @@ export default function NavPanel () {
 					</button>
 					<button className='w-full h-[40px] flex items-center justify-center hover:bg-[#B0B0B0] rounded-[8px] transition ease-linear cursor-pointer'>
 						<Image
-							src={'./arcticons_business-suite.svg'}
+							src={'/arcticons_business-suite.svg'}
 							width={24}
 							height={24}
 							alt={'NavButtonIcon'}
@@ -58,7 +58,7 @@ export default function NavPanel () {
 					</button>
 					<button className='w-full h-[40px] flex items-center justify-center hover:bg-[#B0B0B0] rounded-[8px] transition ease-linear cursor-pointer'>
 						<Image
-							src={'./arcticons_nextcloud-news.svg'}
+							src={'/arcticons_nextcloud-news.svg'}
 							width={24}
 							height={24}
 							alt={'NavButtonIcon'}
@@ -66,7 +66,7 @@ export default function NavPanel () {
 					</button>
 					<button className='w-full h-[40px] flex items-center justify-center hover:bg-[#B0B0B0] rounded-[8px] transition ease-linear cursor-pointer'>
 						<Image
-							src={'./arcticons_settings.svg'}
+							src={'/arcticons_settings.svg'}
 							width={24}
 							height={24}
 							alt={'NavButtonIcon'}
@@ -77,7 +77,7 @@ export default function NavPanel () {
 			<div className='w-full h-[80px]'>
 				<button className='w-full h-[40px] flex items-center justify-center hover:bg-[#B0B0B0] rounded-[8px] transition ease-linear cursor-pointer'>
 					<Image
-						src={'./arcticons_symbol-question-mark.svg'}
+						src={'/arcticons_symbol-question-mark.svg'}
 						width={24}
 						height={24}
 						alt={'NavButtonIcon'}
@@ -85,7 +85,7 @@ export default function NavPanel () {
 				</button>
 				<button className='w-full h-[40px] flex items-center justify-center hover:bg-[#B0B0B0] rounded-[8px] transition ease-linear cursor-pointer'>
 					<Image
-						src={'./iwwa_logout.svg'}
+						src={'/iwwa_logout.svg'}
 						width={24}
 						height={24}
 						alt={'NavButtonIcon'}

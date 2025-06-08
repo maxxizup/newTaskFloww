@@ -8,7 +8,7 @@ export default function WSHeader (props) {
 			<div className='h-full w-[345px] flex items-center justify-between'>
 				<div className='flex gap-[8px]'>
 					<Image
-						src={'./solar_paw-broken.svg'}
+						src={'/solar_paw-broken.svg'}
 						height={44}
 						width={44}
 						alt={'Image'}
@@ -31,7 +31,7 @@ export default function WSHeader (props) {
 					width={44}
 				>
 					<Image
-						src={'./arcticons_hourlyreminder.svg'}
+						src={'/arcticons_hourlyreminder.svg'}
 						width={24}
 						height={24}
 						alt={'Notifications'}
@@ -39,7 +39,7 @@ export default function WSHeader (props) {
 				</MyButton>
 				<button className='border border-white rounded-full w-[44px] h-[44px] flex justify-center transition ease-linear hover:bg-[#6361FF] cursor-pointer'>
 					<Image
-						src={'./solar_cat-broken.svg'}
+						src={'/solar_cat-broken.svg'}
 						width={24}
 						height={24}
 						alt={'Cat'}

@@ -9,7 +9,7 @@ export default function Header () {
 					<Image
 						width={28}
 						height={28}
-						src={'./uit_arrow-circle-left.svg'}
+						src={'/uit_arrow-circle-left.svg'}
 						alt={'GoToPrevPage__button'}
 					/>
 				</Link>
@@ -19,13 +19,13 @@ export default function Header () {
 					<Image
 						width={24}
 						height={24}
-						src={'./logo.svg'}
+						src={'/logo.svg'}
 						alt={'Logo'}
 					/>
 					<Image
 						height={48}
 						width={64}
-						src={'./TaskFloww.svg'}
+						src={'/TaskFloww.svg'}
 						alt={'TaskFloww'}
 					/>
 				</div>
